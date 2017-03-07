@@ -19,6 +19,7 @@ public class Random {
 		System.out.println("**Stopping Random!! Thank you for using it**");
 		sc.close();
 	}
+	
 	public static ArrayList<Integer> random(int from, int to){
 		ArrayList<Integer> stevila = new ArrayList<>();
 		for(int i = from; i < (to+1); i++){
@@ -27,6 +28,7 @@ public class Random {
 		Collections.shuffle(stevila);
 		return stevila;
 	}
+	
 	public static void display(ArrayList<Integer> stevila, int howMany){
 		ArrayList<Integer> forDisplay = new ArrayList<>();
 		for(int i = 0; i < howMany; i++){
